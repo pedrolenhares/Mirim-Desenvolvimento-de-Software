@@ -1,6 +1,4 @@
- <section
-     class="relative w-full z-100 animate-fadeIn animate-slideIn [animation-delay:0s] overflow-hidden bg-gray-100  min-h-screen"
-     id="solucoes">
+ <section class="relative w-full z-100 animate-fadeIn animate-slideIn [animation-delay:0s] overflow-hidden bg-gray-100  min-h-screen" id="solucoes">
 
      <div class="absolute top-0 right-0 w-full h-full lg:w-1/2 lg:h-full z-10">
          <div class="h-full overflow-hidden shadow-4xl"
@@ -46,8 +44,7 @@
              </div>
          </div>
 
-         <div
-             class="relative grid grid-cols-1 lg:grid-cols-2 min-h-[500px] sm:min-h-[600px] lg:min-h-[550px] mt-12 sm:mt-16 lg:mt-20 xl:mt-44">
+         <div class="relative grid grid-cols-1 lg:grid-cols-2 min-h-[500px] sm:min-h-[600px] lg:min-h-[550px] mt-12 sm:mt-16 lg:mt-20 xl:mt-44">
 
              <div class="relative z-20 flex items-center px-4 sm:px-6 lg:px-0">
                  <div class="max-w-7xl w-full">
@@ -69,14 +66,11 @@
 
                                  <button
                                      class="inline-flex items-center gap-5 sm:gap-4 md:gap-5 lg:gap-6 bg-orange-500 text-white px-12 py-6 sm:px-14 sm:py-5 md:px-16 md:py-6 lg:px-18 lg:py-7 xl:px-20 xl:py-8 text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl
-                                                   rounded-full font-inter font-semibold hover:bg-orange-600 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 whitespace-nowrap">
+                                     rounded-full font-inter font-semibold hover:bg-orange-600 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 whitespace-nowrap">
                                      Solicitar orçamento
                                      <i
                                          class="fa-solid fa-arrow-right text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"></i>
                                  </button>
-
-
-
                              </div>
                          </div>
 
@@ -103,10 +97,6 @@
                                      <i
                                          class="fa-solid fa-arrow-right text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"></i>
                                  </button>
-
-
-
-
                              </div>
                          </div>
 
@@ -130,18 +120,15 @@
                                          class="fa-solid fa-arrow-right text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"></i>
                                  </button>
 
-
                              </div>
                          </div>
-
                      </div>
                  </div>
              </div>
 
-             <div class="relative w-full h-full hidden lg:block"></div>
+            <div class="relative w-full h-full hidden lg:block"></div>
 
          </div>
-
      </div>
 
  </section>

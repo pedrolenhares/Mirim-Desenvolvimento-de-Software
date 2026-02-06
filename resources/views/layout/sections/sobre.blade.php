@@ -1,6 +1,4 @@
-  <section
-      class="w-full min-h-screen flex flex-col bg-[#ff8533] relative overflow-hidden opacity-0 translate-y-6 animate-[sectionIn_0.8s_ease-out_forwards]"
-      id="sobre">
+  <section class="w-full min-h-screen flex flex-col bg-[#ff8533] relative overflow-hidden opacity-0 translate-y-6 animate-[sectionIn_0.8s_ease-out_forwards]" id="sobre">
 
       <div class="absolute inset-0 bg-black/10 rounded-lg"></div>
 

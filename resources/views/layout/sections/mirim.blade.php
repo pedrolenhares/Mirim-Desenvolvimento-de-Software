@@ -1,5 +1,6 @@
   <section class="w-full min-h-screen flex flex-col px-4 sm:px-6 md:px-8 bg-[#f3f4f6] animated-background animate-fadeIn"
       id="mirim">
+
       <div class="background-wrapper">
           <div class="shapes-container">
               <div class="shape circle"></div>
@@ -69,4 +70,5 @@
               </div>
           </div>
       </div>
+
   </section>
