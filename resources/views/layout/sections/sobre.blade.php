@@ -1,125 +1,220 @@
-  <section class="w-full min-h-screen flex flex-col bg-[#ff8533] relative overflow-hidden opacity-0 translate-y-6 animate-[sectionIn_0.8s_ease-out_forwards]" id="sobre">
+<section
+    class="w-full bg-white py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32
+                px-4 sm:px-8 md:px-14 lg:px-20 xl:px-28 2xl:px-40"
+    id="sobre">
 
-      <div class="absolute inset-0 bg-black/10 rounded-lg"></div>
+    <!-- Cabeçalho -->
+    <div class="text-center max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto mb-14 sm:mb-16 lg:mb-20 xl:mb-24">
+        <h2
+            class="font-plus font-extrabold text-gray-900 mb-5 sm:mb-6 lg:mb-8
+               text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+            Sobre
+        </h2>
+        <p
+            class="font-plus text-gray-600 leading-relaxed
+              text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+            Somos uma empresa tecnológica dedicada a criar
+            <span class="text-orange-500 font-semibold">soluções digitais</span>
+            de alta performance através da análise rigorosa de dados e otimização de processos.
+        </p>
+    </div>
 
+    <!-- Como trabalhamos -->
+    <div class="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto mb-16 sm:mb-20 lg:mb-24 xl:mb-28">
 
-      <div class="absolute top-[-35%] left-[-18%] w-[850px] h-[850px] wave-1 pointer-events-none">
-          <svg viewBox="0 0 850 850" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <ellipse cx="425" cy="425" rx="425" ry="360" fill="rgba(255, 154, 77, 0.4)"
-                  opacity="0.9" />
-          </svg>
-      </div>
+        <p
+            class="font-plus text-center font-bold tracking-[0.2em] text-orange-500 uppercase mb-10 sm:mb-12 lg:mb-16
+              text-xs sm:text-sm lg:text-base">
+            Como trabalhamos
+        </p>
 
-      <div class="absolute top-[8%] right-[-22%] w-[720px] h-[720px] wave-2 pointer-events-none">
-          <svg viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <ellipse cx="360" cy="360" rx="360" ry="310" fill="rgba(255, 122, 31, 0.35)"
-                  opacity="0.85" />
-          </svg>
-      </div>
+        <div
+            class="grid grid-cols-2 lg:grid-cols-4 gap-y-10 sm:gap-y-12 lg:gap-y-0 gap-x-4 sm:gap-x-6 lg:gap-x-8 xl:gap-x-12">
 
-      <div class="absolute top-[35%] left-[12%] w-[550px] h-[550px] wave-3 pointer-events-none">
-          <svg viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <ellipse cx="275" cy="275" rx="275" ry="230" fill="rgba(255, 133, 51, 0.3)"
-                  opacity="0.8" />
-          </svg>
-      </div>
+            <!-- Step 1 -->
+            <div class="flex flex-col items-center text-center">
+                <div
+                    class="flex items-center justify-center rounded-full border-2 border-orange-500
+                    text-orange-500 font-bold bg-white
+                    hover:bg-orange-500 hover:text-white transition-all duration-300 mb-4 sm:mb-5 lg:mb-6
+                    w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-[72px] lg:h-[72px] xl:w-20 xl:h-20
+                    text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+                    1
+                </div>
+                <h4
+                    class="font-plus font-bold text-gray-900 mb-2 sm:mb-3
+                   text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+                    Briefing
+                </h4>
+                <p
+                    class="font-plus text-gray-500 leading-relaxed
+                  text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
+                    Entendimento profundo dos seus objetivos de negócio e mapeamento do comportamento do seu público.
+                </p>
+            </div>
 
-      <div class="absolute bottom-[-38%] right-[-12%] w-[780px] h-[780px] wave-4 pointer-events-none">
-          <svg viewBox="0 0 780 780" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <ellipse cx="390" cy="390" rx="390" ry="335" fill="rgba(255, 154, 77, 0.33)"
-                  opacity="0.87" />
-          </svg>
-      </div>
+            <!-- Step 2 -->
+            <div class="flex flex-col items-center text-center">
+                <div
+                    class="flex items-center justify-center rounded-full border-2 border-orange-500
+                    text-orange-500 font-bold bg-white
+                    hover:bg-orange-500 hover:text-white transition-all duration-300 mb-4 sm:mb-5 lg:mb-6
+                    w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-[72px] lg:h-[72px] xl:w-20 xl:h-20
+                    text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+                    2
+                </div>
+                <h4
+                    class="font-plus font-bold text-gray-900 mb-2 sm:mb-3
+                   text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+                    Design
+                </h4>
+                <p
+                    class="font-plus text-gray-500 leading-relaxed
+                  text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
+                    Criação de um layout exclusivo com foco em usabilidade e na identidade visual da sua marca.
+                </p>
+            </div>
 
-      <div class="absolute bottom-[-20%] left-[-8%] w-[620px] h-[620px] wave-1 pointer-events-none"
-          style="animation-delay: 4s;">
-          <svg viewBox="0 0 620 620" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <ellipse cx="310" cy="310" rx="310" ry="265" fill="rgba(255, 122, 31, 0.28)"
-                  opacity="0.82" />
-          </svg>
-      </div>
+            <!-- Step 3 -->
+            <div class="flex flex-col items-center text-center">
+                <div
+                    class="flex items-center justify-center rounded-full border-2 border-orange-500
+                    text-orange-500 font-bold bg-white
+                    hover:bg-orange-500 hover:text-white transition-all duration-300 mb-4 sm:mb-5 lg:mb-6
+                    w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-[72px] lg:h-[72px] xl:w-20 xl:h-20
+                    text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+                    3
+                </div>
+                <h4
+                    class="font-plus font-bold text-gray-900 mb-2 sm:mb-3
+                   text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+                    Desenvolvimento
+                </h4>
+                <p
+                    class="font-plus text-gray-500 leading-relaxed
+                  text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
+                    Transformação do design em uma plataforma robusta, rápida e otimizada para conversão.
+                </p>
+            </div>
 
-      <div
-          class="absolute inset-0 bg-gradient-to-br from-orange-400/10 via-transparent to-orange-600/10 pointer-events-none">
-      </div>
+            <!-- Step 4 -->
+            <div class="flex flex-col items-center text-center">
+                <div
+                    class="flex items-center justify-center rounded-full border-2 border-orange-500
+                    text-orange-500 font-bold bg-white
+                    hover:bg-orange-500 hover:text-white transition-all duration-300 mb-4 sm:mb-5 lg:mb-6
+                    w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-[72px] lg:h-[72px] xl:w-20 xl:h-20
+                    text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+                    4
+                </div>
+                <h4
+                    class="font-plus font-bold text-gray-900 mb-2 sm:mb-3
+                   text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+                    Entrega
+                </h4>
+                <p
+                    class="font-plus text-gray-500 leading-relaxed
+                  text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
+                    Lançamento estratégico do projeto com acompanhamento contínuo para garantir a performance.
+                </p>
+            </div>
 
-      </div>
+        </div>
+    </div>
 
-      <div class="max-w-[115rem] w-full mx-auto z-10 my-32 px-6 sm:px-8 md:px-12">
-          <div class="text-center mb-16 animate-slideUp">
-              <h2 class="text-6xl sm:text-7xl lg:text-7xl font-inter text-white mb-4 leading-tight">
-                  <span class="inline-block">Sobre</span>
-              </h2>
+    <!-- Missão / Visão / Valores -->
+    <div
+        class="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8 xl:gap-10">
 
-              <div class="flex items-center justify-center gap-3 mb-4">
-                  <div
-                      class="w-36 h-px rounded-7xl bg-white/90 origin-center scale-x-0 opacity-0 animate-[lineIn_0.6s_ease-out_forwards]">
-                  </div>
-              </div>
+        <!-- Missão -->
+        <div
+            class="border-[1.5px] border-orange-500 rounded-2xl xl:rounded-3xl bg-white
+                hover:-translate-y-1 hover:shadow-xl transition-all duration-300
+                p-5 sm:p-6 md:p-7 lg:p-8 xl:p-10">
+            <div class="flex items-center gap-3 xl:gap-4 mb-4 xl:mb-5">
+                <div
+                    class="rounded-xl bg-orange-50 flex items-center justify-center text-orange-500 flex-shrink-0
+                    w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14
+                    text-base sm:text-lg lg:text-xl xl:text-2xl">
+                    <i class="fa-solid fa-bullseye"></i>
+                </div>
+                <h4
+                    class="font-plus font-bold text-gray-900
+                   text-lg sm:text-xl lg:text-2xl xl:text-3xl">
+                    Missão
+                </h4>
+            </div>
+            <p
+                class="font-plus text-gray-500 leading-relaxed
+                text-sm sm:text-base lg:text-lg xl:text-xl">
+                Identificar e mitigar gargalos através de tecnologia estratégica, elevando a eficiência operacional dos
+                nossos parceiros.
+            </p>
+        </div>
 
-              <p class="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed font-light">
-                  Somos uma empresa de tecnologia focada em desenvolver
-                  <span class="font-semibold text-white">soluções digitais</span> com base em
-                  <span class="font-semibold text-white">dados, processos</span> e
-                  <span class="font-semibold text-white">decisões conscientes</span>.
-              </p>
+        <!-- Visão -->
+        <div
+            class="border-[1.5px] border-orange-500 rounded-2xl xl:rounded-3xl bg-white
+                hover:-translate-y-1 hover:shadow-xl transition-all duration-300
+                p-5 sm:p-6 md:p-7 lg:p-8 xl:p-10">
+            <div class="flex items-center gap-3 xl:gap-4 mb-4 xl:mb-5">
+                <div
+                    class="rounded-xl bg-orange-50 flex items-center justify-center text-orange-500 flex-shrink-0
+                    w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14
+                    text-base sm:text-lg lg:text-xl xl:text-2xl">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h4
+                    class="font-plus font-bold text-gray-900
+                   text-lg sm:text-xl lg:text-2xl xl:text-3xl">
+                    Visão
+                </h4>
+            </div>
+            <p
+                class="font-plus text-gray-500 leading-relaxed
+                text-sm sm:text-base lg:text-lg xl:text-xl">
+                Ser a referência global em escala sustentável, criando produtos que definem novos padrões de valor e
+                inovação no mercado.
+            </p>
+        </div>
 
-          </div>
+        <!-- Valores -->
+        <div
+            class="border-[1.5px] border-orange-500 rounded-2xl xl:rounded-3xl bg-white
+                hover:-translate-y-1 hover:shadow-xl transition-all duration-300
+                p-5 sm:p-6 md:p-7 lg:p-8 xl:p-10
+                sm:col-span-2 lg:col-span-1">
+            <div class="flex items-center gap-3 xl:gap-4 mb-4 xl:mb-5">
+                <div
+                    class="rounded-xl bg-orange-50 flex items-center justify-center text-orange-500 flex-shrink-0
+                    w-9 h-9 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14
+                    text-base sm:text-lg lg:text-xl xl:text-2xl">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <h4
+                    class="font-plus font-bold text-gray-900
+                   text-lg sm:text-xl lg:text-2xl xl:text-3xl">
+                    Valores
+                </h4>
+            </div>
+            <ul
+                class="font-plus text-gray-500 leading-relaxed space-y-2 sm:space-y-3 xl:space-y-4
+                 text-sm sm:text-base lg:text-lg xl:text-xl">
+                <li class="flex items-center gap-2 xl:gap-3">
+                    <span class="w-1.5 h-1.5 xl:w-2 xl:h-2 rounded-full bg-orange-500 flex-shrink-0"></span>
+                    Estrutura antes da escala
+                </li>
+                <li class="flex items-center gap-2 xl:gap-3">
+                    <span class="w-1.5 h-1.5 xl:w-2 xl:h-2 rounded-full bg-orange-500 flex-shrink-0"></span>
+                    Decisão consciente e ética
+                </li>
+                <li class="flex items-center gap-2 xl:gap-3">
+                    <span class="w-1.5 h-1.5 xl:w-2 xl:h-2 rounded-full bg-orange-500 flex-shrink-0"></span>
+                    Foco total no sucesso do cliente
+                </li>
+            </ul>
+        </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-16 mb-4 items-stretch">
+    </div>
 
-              <div class="value-card bg-white/10 backdrop-blur-sm p-12 rounded-3xl border border-white min-h-[28rem]">
-                  <div class="icon-wrapper w-24 h-24 rounded-3xl flex items-center justify-center mb-8">
-                      <i class="fa-regular fa-flag text-white text-7xl"></i>
-                  </div>
-                  <h3 class="text-5xl font-inter sm:text-3xl lg:text-5xl text-white mb-6">Missão</h3>
-                  <p class="text-white/90 text-2xl leading-relaxed">
-                      Identificar, analisar e transformar gargalos reais em soluções digitais estratégicas, por
-                      meio da
-                      informatização de processos.
-              </div>
-
-              <div class="value-card bg-white/10 backdrop-blur-sm p-12 rounded-3xl border border-white min-h-[28rem]"
-                  style="animation-delay: 0.1s;">
-                  <div class="icon-wrapper w-24 h-24 rounded-3xl flex items-center justify-center mb-8">
-                      <i class="fa-regular fa-eye text-white text-7xl"></i>
-                  </div>
-                  <h3 class="text-5xl font-inter sm:text-3xl lg:text-5xl text-white mb-6">Visão</h3>
-                  <p class="text-white/90 text-2xl leading-relaxed">
-                      Ser uma empresa de tecnologia sólida e escalável, orientada a produtos que geram valor real,
-                      recorrente e
-                      sustentável.</p>
-              </div>
-
-              <div class="value-card bg-white/10 backdrop-blur-sm p-12 rounded-3xl border border-white min-h-[28rem]"
-                  style="animation-delay: 0.2s;">
-                  <div class="icon-wrapper w-24 h-24 rounded-3xl flex items-center justify-center mb-8">
-                      <i class="fa-regular fa-handshake text-white text-7xl"></i>
-                  </div>
-                  <h3 class="text-5xl sm:text-3xl lg:text-5xl font-inter text-white mb-6">Valores</h3>
-                  <p class="text-white/90 text-2xl leading-relaxed">
-                      Estrutura antes da escala </p>
-                  <p class="text-white/90 text-2xl leading-relaxed">
-                      Decisão consciente
-                  </p>
-                  <p class="text-white/90 text-2xl leading-relaxed">
-                      Foco em valor real ao cliente
-                  </p>
-              </div>
-
-          </div>
-
-      </div>
-
-      <div
-          class="relative w-full z-100 overflow-hidden bg-gradient-to-b from-[#1B130D] to-[#0D0A06] p-4 flex items-center justify-center min-h-[175px] ">
-
-          <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-black/20 to-black/40"></div>
-
-          <div class="flex flex-wrap justify-center items-center gap-12 md:gap-20 text-6xl md:text-8xl relative z-10">
-              <i class="devicon-laravel-original colored float"></i>
-              <i class="devicon-csharp-plain colored float" style="animation-delay: 0.5s;"></i>
-              <i class="devicon-spring-original colored float" style="animation-delay: 1s;"></i>
-              <i class="devicon-nextjs-plain text-white float" style="animation-delay: 1.5s;"></i>
-          </div>
-      </div>
+</section>

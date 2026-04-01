@@ -1228,3 +1228,78 @@ nav {
     transform: scale(1);
   }
 }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.step-connector {
+  position: absolute;
+  top: 32px;
+  left: calc(50% + 28px);
+  width: calc(100% - 56px);
+  height: 1.5px;
+  background: linear-gradient(90deg, #f97316 0%, #fdba74 100%);
+  z-index: 0;
+}
+
+.step-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #f97316;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #f97316;
+  background: white;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.step-circle:hover {
+  background: #f97316;
+  color: white;
+  transform: scale(1.08);
+}
+
+.card-mvv {
+  border: 1.5px solid #f97316;
+  border-radius: 16px;
+  padding: 28px 24px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.card-mvv:hover {
+  box-shadow: 0 8px 30px rgba(249, 115, 22, 0.12);
+  transform: translateY(-3px);
+}
+
+.icon-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #fff7ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f97316;
+  font-size: 18px;
+  flex-shrink: 0;
+}
