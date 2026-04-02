@@ -118,7 +118,6 @@
     </div>
 
     <div class="hidden md:flex absolute right-0 bottom-0
-                /* No md, usamos apenas 30% da tela para não tocar no texto */
                 w-[30%] lg:w-[45%] 
                 h-[400px] lg:h-[550px]
                 items-end justify-end
