@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Mail;
 
 class ContatoController extends Controller
 {
-    public function contato(Request $request)
+    public function enviarDados(Request $request)
     {
         $dados = $request->validate([
             'nome' => 'required|string|max:255',
@@ -20,13 +20,10 @@ class ContatoController extends Controller
 
         try {
             Mail::to('contato@mirimweb.com.br')->send(new contatoMail($dados));
-            return response()->json(['message' => 'Mensagem enviada com sucesso!'], HttpStatus::OK->value);   
-            }
-            catch (\Exception $e) {    
-
-            {
+            return response()->json(['message' => 'Mensagem enviada com sucesso!'], HttpStatus::OK->value);
+        } catch (\Exception $e) { {
                 return response()->json(['message' => 'Erro ao enviar a mensagem: ' . $e->getMessage()], HttpStatus::INTERNAL_SERVER_ERROR->value);
             }
         }
-    }   
+    }
 }

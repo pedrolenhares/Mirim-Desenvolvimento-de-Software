@@ -75,10 +75,12 @@
             </div>
         </div>
 
+        <div id="toast-container" class="fixed bottom-6 right-6 flex flex-col gap-3 z-50"></div>
+
         <!-- Formulário -->
         <div class="w-full lg:w-1/2 xl:w-[55%]
                 bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl xl:rounded-3xl
-                p-5 sm:p-6 md:p-8 lg:p-8 xl:p-10 2xl:p-12" action="{{ route('contato.enviar') }}">
+                p-5 sm:p-6 md:p-8 lg:p-8 xl:p-10 2xl:p-12" data-action="{{ route('contato.enviar') }}" id="form-contato">
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 xl:gap-6 mb-4 sm:mb-5 xl:mb-6">
 
