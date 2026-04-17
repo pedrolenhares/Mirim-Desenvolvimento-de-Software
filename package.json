@@ -19,6 +19,7 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "^7.1.0",
         "bootstrap": "^5.3.8",
-        "flowbite": "^4.0.1"
+        "flowbite": "^4.0.1",
+        "scrollreveal": "^4.0.9"
     }
 }

@@ -1,4 +1,4 @@
-<section class="relative w-full min-h-screen overflow-hidden flex items-center bg-[#0f1117] font-plus" id="contato">
+<section class="relative w-full min-h-screen overflow-hidden flex items-center bg-[#0f1117] font-plus reveal" id="projeto">
     <!-- Ruído de textura sutil -->
     <div class="pointer-events-none absolute -left-1/4 top-1/2 -translate-y-1/2
             w-[40vw] h-[40vw] max-w-[500px] max-h-[500px] rounded-full

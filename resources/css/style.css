@@ -1303,3 +1303,15 @@ nav {
   font-size: 18px;
   flex-shrink: 0;
 }
+
+.card-reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.52s cubic-bezier(.22, .68, 0, 1.2),
+    transform 0.52s cubic-bezier(.22, .68, 0, 1.2);
+}
+
+.card-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -97,7 +97,7 @@
                 </a>
             </li>
             <li class="pb-2">
-                <a href="#solucoes"
+                <a href="#projeto"
                     class="block text-center px-4 py-3 mt-1 rounded-xl text-white bg-orange-500 hover:bg-orange-600 transition-colors duration-300 font-semibold">
                     Contato
                 </a>

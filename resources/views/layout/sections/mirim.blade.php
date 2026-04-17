@@ -1,4 +1,4 @@
-<section class="relative w-full flex flex-col px-4 sm:px-6 md:px-8 bg-[#f3f4f6] animated-background animate-fadeIn"
+<section class="relative w-full flex flex-col px-4 sm:px-6 md:px-8 bg-[#f3f4f6] animated-background animate-fadeIn reveal"
     id="mirim">
 
     <div class="absolute inset-0 overflow-hidden pointer-events-none z-0" aria-hidden="true"

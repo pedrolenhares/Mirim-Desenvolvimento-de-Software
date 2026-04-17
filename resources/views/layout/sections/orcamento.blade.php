@@ -1,5 +1,5 @@
 <section
-    class="relative w-full z-100 animate-fadeIn animate-slideIn [animation-delay:0s] overflow-hidden bg-white min-h-screen flex flex-col justify-center py-16 px-4 md:px-8 lg:px-16"
+    class="relative w-full z-100 animate-fadeIn animate-slideIn [animation-delay:0s] overflow-hidden bg-white min-h-screen flex flex-col justify-center py-16 px-4 md:px-8 lg:px-16 reveal"
     id="solucoes">
 
     <div class="w-full  flex flex-col flex-1 gap-12">

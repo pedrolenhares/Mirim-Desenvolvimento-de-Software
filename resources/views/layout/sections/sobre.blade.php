@@ -1,6 +1,6 @@
 <section
     class="w-full bg-white py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32
-                px-4 sm:px-8 md:px-14 lg:px-20 xl:px-28 2xl:px-40"
+                px-4 sm:px-8 md:px-14 lg:px-20 xl:px-28 2xl:px-40 reveal"
     id="sobre">
 
     <!-- Cabeçalho -->

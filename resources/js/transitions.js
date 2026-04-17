@@ -72,3 +72,4 @@ function buildChartSVG() {
 
 window.addEventListener('load', () => setTimeout(buildChartSVG, 100));
 window.addEventListener('resize', buildChartSVG);
+
