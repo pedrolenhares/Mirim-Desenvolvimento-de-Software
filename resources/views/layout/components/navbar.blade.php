@@ -49,7 +49,7 @@
                 </a>
             </li>
             <li>
-                <a href="#solucoes"
+                <a href="#projetosection"
                     class="inline-flex items-center px-5 py-2.5 lg:px-6 lg:py-3 rounded-xl text-white
                   bg-orange-500 hover:bg-orange-600 transition-colors duration-300 font-semibold">
                     Contato
@@ -97,7 +97,7 @@
                 </a>
             </li>
             <li class="pb-2">
-                <a href="#projeto"
+                <a href="#projetosection"
                     class="block text-center px-4 py-3 mt-1 rounded-xl text-white bg-orange-500 hover:bg-orange-600 transition-colors duration-300 font-semibold">
                     Contato
                 </a>
