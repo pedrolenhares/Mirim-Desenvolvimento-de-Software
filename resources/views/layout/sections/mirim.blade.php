@@ -1,4 +1,4 @@
-<section class="relative w-full flex flex-col px-4 sm:px-6 md:px-8 bg-[#f3f4f6] animated-background animate-fadeIn"
+<section class="relative w-full flex flex-col px-4 sm:px-6 md:px-8 bg-[#f3f4f6] animated-background animate-fadeIn reveal"
     id="mirim">
 
     <div class="absolute inset-0 overflow-hidden pointer-events-none z-0" aria-hidden="true"
@@ -47,7 +47,7 @@
 
         <h2
             class="font-medium text-[#111827] leading-relaxed
-               text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-3xl">
+               text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-3xl" id="crescimento">
             Desenvolvemos soluções digitais completas:
             <span class="text-orange-500">sites estratégicos</span> e
             <span class="text-orange-500">softwares de gestão personalizados</span>
