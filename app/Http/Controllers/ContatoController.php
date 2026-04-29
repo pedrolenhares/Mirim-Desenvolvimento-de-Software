@@ -21,9 +21,10 @@ class ContatoController extends Controller
         try {
             Mail::to('contato@mirimweb.com.br')->send(new contatoMail($dados));
             return response()->json(['message' => 'Mensagem enviada com sucesso!'], HttpStatus::OK->value);
-        } catch (\Exception $e) { {
-                return response()->json(['message' => 'Erro ao enviar a mensagem: ' . $e->getMessage()], HttpStatus::INTERNAL_SERVER_ERROR->value);
-            }
+        } catch (\Exception $e) {
+            return response()->json([
+                'message' => 'Erro ao enviar a mensagem: ' . $e->getMessage()
+            ], HttpStatus::INTERNAL_SERVER_ERROR->value);
         }
     }
 }

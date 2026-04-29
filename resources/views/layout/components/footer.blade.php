@@ -9,7 +9,7 @@
         <div class="flex flex-col gap-6 items-center lg:items-start">
             <a href="#mirim" class="block">
                 <img
-                    src="/images/01.png"
+                    src="{{ asset('images/01.png') }}"
                     alt="Logo"
                     class="w-[420px] block ">
             </a>

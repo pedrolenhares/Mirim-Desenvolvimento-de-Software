@@ -44,7 +44,7 @@ function reveal(selector, { delay = 0, origin = 'bottom', scale, interval = 0 } 
   });
 }
 
-// Suas regras originais:
+
 reveal('section',  { origin: 'bottom' });
 reveal('h1, h2',  { delay: 100, origin: 'bottom' });
 reveal('p',       { delay: 200, origin: 'bottom' });
