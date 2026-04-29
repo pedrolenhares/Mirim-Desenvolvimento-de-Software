@@ -14,7 +14,7 @@
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <title>@yield('title', 'MirimWeb')</title>
+    <title>@yield('title', 'Mirim Web')</title>
 </head>
 
 <body>

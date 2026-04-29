@@ -110,7 +110,7 @@
             </div>
             <div class="flex items-center gap-3">
                 <i class="fa-solid fa-check text-orange-500 text-lg sm:text-xl lg:text-2xl flex-shrink-0"></i>
-                <p class="font-medium text-[#111827] text-lg sm:text-xl lg:text-2xl xl:text-2xl max-w-3xl">
+                <p class="font-medium text-[#111827] text-lg sm:text-xl lg:text-2xl xl:text-2xl max-w-3xl" id="solucoes">
                     Soluções digitais focadas em crescimento
                 </p>
             </div>
@@ -146,7 +146,7 @@
                 style="animation-delay:0.4s;"></div>
         </div>
         <div class="flex-1 h-full flex flex-col justify-end" data-height="75">
-            <div class="w-full bg-orange-500 rounded-t-2xl h-[75%] origin-bottom animate-growUp"
+            <div class="w-full bg-orange-500 rounded-t-2xl h-[75%] origin-bottom animate-growUp" 
                 style="animation-delay:0.6s;"></div>
         </div>
         <div class="flex-1 h-full flex flex-col justify-end" data-height="85">

@@ -1,6 +1,5 @@
 <section
-    class="relative w-full z-100 animate-fadeIn animate-slideIn [animation-delay:0s] overflow-hidden bg-white min-h-screen flex flex-col justify-center py-16 px-4 md:px-8 lg:px-16 reveal"
-    id="solucoes">
+    class="relative w-full z-100 animate-fadeIn animate-slideIn [animation-delay:0s] overflow-hidden bg-white min-h-screen flex flex-col justify-center py-16 px-4 md:px-8 lg:px-16 reveal">
 
     <div class="w-full  flex flex-col flex-1 gap-12">
 
@@ -48,7 +47,7 @@
             </div>
 
             <div class="md:col-span-3 bg-white rounded-2xl p-8 flex flex-col gap-4 border-2 border-gray-200 ">
-                <h3 class="text-4xl font-bold text-[#111] mb-6">Web Apps &amp; Sistemas sob Medida</h3>
+                <h3 class="text-4xl font-bold text-[#111] mb-6" >Web Apps &amp; Sistemas sob Medida</h3>
 
                 <p class="text-2xl text-[#555] leading-relaxed flex-1">
                     Automatização de processos com ferramentas exclusivas para sua
@@ -57,7 +56,7 @@
                 </p>
 
                 <a href="https://wa.me/5514991221660"
-                    class="flex items-center gap-2 text-2xl font-medium text-orange-500 mt-auto group">
+                    class="flex items-center gap-2 text-2xl font-medium text-orange-500 mt-auto group" id="sobre">
                     Iniciar consultoria
                     <i
                         class="fa-solid fa-arrow-right translate-y-[3px] transition-transform duration-200 group-hover:translate-x-1"></i>
