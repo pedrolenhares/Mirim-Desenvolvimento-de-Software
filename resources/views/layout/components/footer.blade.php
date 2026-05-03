@@ -94,8 +94,7 @@
     <div class="border-t border-white/10 pt-6 pb-6 sm:pb-8 sm:pt-8 text-center">
         <p class="font-plus text-gray-500 text-xs sm:text-sm xl:text-base ">
             © 2026 <a href="#"
-                class="text-orange-400 hover:text-orange-300 transition-colors duration-200">Mirim Web</a>. Todos os
-            direitos reservados.
+                class="text-orange-400 hover:text-orange-300 transition-colors duration-200">Mirim Web</a>. Todos os direitos reservados. — CNPJ 66.090.455/0001-53
         </p>
     </div>
 
