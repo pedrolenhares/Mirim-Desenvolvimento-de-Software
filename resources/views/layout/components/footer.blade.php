@@ -62,7 +62,7 @@
                     <div>
                         <p class="font-plus font-bold tracking-widest text-orange-400 uppercase text-[10px] xl:text-xs mb-0.5">
                             E-mail</p>
-                        <a href="mailto:contato@mirimweb.com.br"
+                        <a href="https://mail.google.com/mail/?view=cm&to=contato@mirimweb.com.br" target="_blank"
                             class="font-plus text-gray-300 hover:text-orange-400 transition-colors duration-200 text-xs sm:text-sm xl:text-base">
                             contato@mirimweb.com.br
                         </a>

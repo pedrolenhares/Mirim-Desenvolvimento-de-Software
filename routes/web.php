@@ -11,5 +11,5 @@ Route::post('/contato', [ContatoController::class, 'enviarDados'])
     ->name('contato.enviar');
 
 Route::get('/contato', function () {
-    return view('contato');
+    return view('emails.contato');
 });
