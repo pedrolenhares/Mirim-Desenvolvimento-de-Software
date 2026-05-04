@@ -1,7 +1,6 @@
 <section
     class="w-full bg-white py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32
-                px-4 sm:px-8 md:px-14 lg:px-20 xl:px-28 2xl:px-40 reveal"
-    id="sobre">
+                px-4 sm:px-8 md:px-14 lg:px-20 xl:px-28 2xl:px-40 reveal">
 
     <!-- Cabeçalho -->
     <div class="text-center max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto mb-14 sm:mb-16 lg:mb-20 xl:mb-24">
