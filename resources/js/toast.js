@@ -1,10 +1,9 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("form-contato");
+    const btnEnviar = form.querySelector("button");
+    const toastContainer = document.getElementById("toast-container");
 
-    const form = document.getElementById('form-contato');
-    const btnEnviar = form.querySelector('button');
-    const toastContainer = document.getElementById('toast-container');
-
-    form.addEventListener('submit', async function (e) {
+    form.addEventListener("submit", async function (e) {
         e.preventDefault(); // 🔥 impede redirecionamento
 
         btnEnviar.disabled = true;
@@ -20,26 +19,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             const response = await fetch(form.action, {
-                method: 'POST',
+                method: "POST",
                 headers: {
-                    'Accept': 'application/json'
+                    Accept: "application/json",
+                    "X-CSRF-TOKEN": document.querySelector(
+                        'meta[name="csrf-token"]',
+                    ).content,
                 },
-                body: formData
+                body: formData,
             });
 
-            const data = await response.json();
+            let data;
 
-            if (response.ok) {
-                showToast(data.message || 'Mensagem enviada!', 'success');
-                form.reset();
-            } else if (response.status === 422) {
-                Object.values(data.errors).flat().forEach(msg => showToast(msg, 'error'));
-            } else {
-                showToast(data.message || 'Erro ao enviar.', 'error');
+            try {
+                data = await response.json();
+            } catch (e) {
+                showToast("Erro inesperado no servidor", "error");
+                return;
             }
 
+            if (response.ok) {
+                showToast(data.message || "Mensagem enviada!", "success");
+                form.reset();
+            } else if (response.status === 422) {
+                Object.values(data.errors)
+                    .flat()
+                    .forEach((msg) => showToast(msg, "error"));
+            } else {
+                showToast(data.message || "Erro ao enviar.", "error");
+            }
         } catch (err) {
-            showToast('Erro de conexão.', 'error');
+            showToast("Erro de conexão.", "error");
         } finally {
             btnEnviar.disabled = false;
             btnEnviar.innerHTML = `
@@ -49,18 +59,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    function showToast(message, type = 'success') {
-        const icons = { success: '✓', error: '✕' };
+    function showToast(message, type = "success") {
+        const icons = { success: "✓", error: "✕" };
         const colors = {
-            success: 'bg-green-600',
-            error: 'bg-red-600'
+            success: "bg-green-600",
+            error: "bg-red-600",
         };
 
         if (toastContainer.children.length >= 4) {
             toastContainer.firstChild.remove();
         }
 
-        const toast = document.createElement('div');
+        const toast = document.createElement("div");
         toast.className = `
             flex items-center gap-3 px-5 py-3 rounded-lg text-white text-sm shadow-lg
             transform translate-y-4 opacity-0 transition-all duration-300
@@ -75,13 +85,12 @@ document.addEventListener('DOMContentLoaded', () => {
         toastContainer.appendChild(toast);
 
         requestAnimationFrame(() => {
-            toast.classList.remove('translate-y-4', 'opacity-0');
+            toast.classList.remove("translate-y-4", "opacity-0");
         });
 
         setTimeout(() => {
-            toast.classList.add('opacity-0', 'translate-y-4');
+            toast.classList.add("opacity-0", "translate-y-4");
             setTimeout(() => toast.remove(), 300);
         }, 3500);
     }
-
 });
