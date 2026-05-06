@@ -5,13 +5,13 @@
 
         <div class="text-center font-plus mb-6">
             <p class="text-orange-500 text-2xl font-semibold  tracking-widest uppercase mb-2">Especialidades</p>
-            <h2 class="text-4xl md:text-5xl font-extrabold  text-[#111]">Soluções para o seu negócio</h2>
+            <h2 class="text-4xl md:text-5xl font-extrabold  text-[#0f172a]">Soluções para o seu negócio</h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-5 grid-rows-1 md:grid-rows-2 gap-5 flex-1 font-plus">
 
             <div class="md:col-span-3 bg-white rounded-2xl p-8 flex flex-col gap-4 border-2 border-gray-200">
-                <h3 class="text-4xl font-bold text-[#111] mb-6">Landing Pages de Alta Conversão</h3>
+                <h3 class="text-4xl font-bold text-[#0f172a] mb-6">Landing Pages de Alta Conversão</h3>
 
                 <p class="text-2xl text-[#555] leading-relaxed flex-1">
                     Páginas únicas focadas em um único objetivo: converter o clique do seu
@@ -47,7 +47,7 @@
             </div>
 
             <div class="md:col-span-3 bg-white rounded-2xl p-8 flex flex-col gap-4 border-2 border-gray-200 ">
-                <h3 class="text-4xl font-bold text-[#111] mb-6" >Web Apps &amp; Sistemas sob Medida</h3>
+                <h3 class="text-4xl font-bold text-[#0f172a] mb-6">Web Apps &amp; Sistemas sob Medida</h3>
 
                 <p class="text-2xl text-[#555] leading-relaxed flex-1">
                     Automatização de processos com ferramentas exclusivas para sua

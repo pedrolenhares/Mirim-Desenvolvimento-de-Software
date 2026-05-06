@@ -11,7 +11,7 @@
                 <img
                     src="{{ asset('images/01.png') }}"
                     alt="Logo"
-                    class="w-[420px] block ">
+                    class="w-[420px] block relative md:right-5">
             </a>
             <p class="font-plus text-gray-400 leading-relaxed text-sm sm:text-base xl:text-lg max-w-[400px] text-center lg:text-left mx-auto lg:mx-0">
                 Especialistas no desenvolvimento de soluções digitais completas, desde sites estratégicos a sistemas personalizados.

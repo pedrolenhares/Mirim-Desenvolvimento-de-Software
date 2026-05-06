@@ -39,14 +39,14 @@
         </div>
 
         <h1
-            class="font-extrabold text-[#111827] leading-tight
+            class="font-extrabold text-[#0f172a] leading-tight
                text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl">
             Seu primeiro grande passo no
             <span class="text-orange-500"> mundo digital</span>
         </h1>
 
         <h2
-            class="font-medium text-[#111827] leading-relaxed
+            class="font-medium text-[#0f172a] leading-relaxed
                text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-3xl" id="crescimento">
             Desenvolvemos soluções digitais completas:
             <span class="text-orange-500">sites estratégicos</span> e
@@ -82,14 +82,14 @@
            pb-16 sm:pb-20 md:pb-24 lg:pb-32 font-plus">
 
         <h1
-            class="font-extrabold text-[#111827] leading-tight
+            class="font-extrabold text-[#0f172a] leading-tight
                text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl max-w-3xl">
             Sua jornada rumo ao
             <span class="text-orange-500">topo</span>
         </h1>
 
         <h2
-            class="font-medium text-[#111827] leading-relaxed
+            class="font-medium text-[#0f172a] leading-relaxed
                text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl max-w-3xl">
             Um site bem estruturado é o primeiro passo para escalar seu negócio.
             Nosso método foca em visibilidade, confiança e resultados crescentes.
@@ -98,19 +98,19 @@
         <div class="flex flex-col gap-5 sm:gap-6">
             <div class="flex items-center gap-3">
                 <i class="fa-solid fa-check text-orange-500 text-lg sm:text-xl lg:text-2xl flex-shrink-0"></i>
-                <p class="font-medium text-[#111827] text-lg sm:text-xl lg:text-2xl xl:text-2xl max-w-3xl">
+                <p class="font-medium text-[#0f172a] text-lg sm:text-xl lg:text-2xl xl:text-2xl max-w-3xl">
                     Lançamento: Foco em SEO Local
                 </p>
             </div>
             <div class="flex items-center gap-3">
                 <i class="fa-solid fa-check text-orange-500 text-lg sm:text-xl lg:text-2xl flex-shrink-0"></i>
-                <p class="font-medium text-[#111827] text-lg sm:text-xl lg:text-2xl xl:text-2xl max-w-3xl">
+                <p class="font-medium text-[#0f172a] text-lg sm:text-xl lg:text-2xl xl:text-2xl max-w-3xl">
                     Estratégia: Conversão recorrente de leads
                 </p>
             </div>
             <div class="flex items-center gap-3">
                 <i class="fa-solid fa-check text-orange-500 text-lg sm:text-xl lg:text-2xl flex-shrink-0"></i>
-                <p class="font-medium text-[#111827] text-lg sm:text-xl lg:text-2xl xl:text-2xl max-w-3xl" id="solucoes">
+                <p class="font-medium text-[#0f172a] text-lg sm:text-xl lg:text-2xl xl:text-2xl max-w-3xl" id="solucoes">
                     Soluções digitais focadas em crescimento
                 </p>
             </div>
@@ -146,7 +146,7 @@
                 style="animation-delay:0.4s;"></div>
         </div>
         <div class="flex-1 h-full flex flex-col justify-end" data-height="75">
-            <div class="w-full bg-orange-500 rounded-t-2xl h-[75%] origin-bottom animate-growUp" 
+            <div class="w-full bg-orange-500 rounded-t-2xl h-[75%] origin-bottom animate-growUp"
                 style="animation-delay:0.6s;"></div>
         </div>
         <div class="flex-1 h-full flex flex-col justify-end" data-height="85">

@@ -1,12 +1,12 @@
 @extends('layout.app')
 
-@section('title', 'MirimWeb')
+@section('title', 'Mirim Web')
 
 @section('content')
 
-    @include('layout.sections.mirim')
-    @include('layout.sections.orcamento')
-    @include('layout.sections.sobre')
-    @include('layout.sections.projeto')
+@include('layout.sections.mirim')
+@include('layout.sections.orcamento')
+@include('layout.sections.sobre')
+@include('layout.sections.projeto')
 
 @endsection
